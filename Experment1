@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin: 5px 0;
+      font-size: 1.1rem;
+    }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .sidebar {
+      background: #ecf0f1;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .sidebar h2 {
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .main-content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .main-content h2 {
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .flex-section {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    .flex-section h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #2c3e50;
+    }
+
+    .flex-section span {
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shubham  </h1>
+    <p>Web Developer | Student | Programme </p>
+    <p>Email: shubham@example.com | Phone: +91-8685864970</p>
+  </header>
+
+  <div class="container">
+    <div class="grid-layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2>Profile</h2>
+        <p>Motivated BCA student with skills in web development, programming, and data analysis. Passionate about building clean and functional projects.</p>
+
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Python, C Programming</li>
+          <li>Excel & Data Analysis</li>
+          <li>Crypto Trading Basics</li>
+        </ul>
+
+        <h2>Education</h2>
+        <ul>
+          <li>BCA - Geeta University</li>
+          <li>Class 12th - HBSC</li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <section class="main-content">
+        <h2>Experience</h2>
+        <div class="flex-section">
+          <h3>Intern - Web Development</h3>
+          <span>2025 - Present</span>
+        </div>
+        <p>Worked on creating responsive websites using HTML, CSS, and JavaScript. Learned about Flexbox and Grid for layout design.</p>
+
+        <div class="flex-section">
+          <h3>Freelance E-commerce Seller</h3>
+          <span>2024 - 2025</span>
+        </div>
+        <p>Started selling products on Meesho, focusing on beginner-friendly categories like fashion jewelry.</p>
+
+        <h2>Projects</h2>
+        <ul>
+          <li>HTML Registration Form with multiple input types</li>
+          <li>Crypto Futures Trading Analysis using Excel</li>
+          <li>Portfolio Website showcasing coding projects</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Shubham| Online Resume</p>
+  </footer>
+</body>
+</html>>
+
+
+
+
+

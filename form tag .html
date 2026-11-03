@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+
+
+<h1>Complete Student Registration Form</h1>
+Please fill all the required information carefully.<br> <hr>
+
+<fieldset>
+ <legend> <b>1. Personal Information </b></legend>
+<ol type="1"><li> <label>Full Name:</label>  </li>
+<input id="Name" type="text" placeholder="Enter your full name"> 
+<br>
+ <br>
+ <li> <label> Username:</label> </li>
+<input id="Username" type="text" placeholder="Choose a userName"> 
+<br> 
+<br>
+ <li> <label> Email:</label> </li>
+<input id="email" type="email" placeholder="example@gmail.com"> 
+<br> 
+ <br>
+  <li> <label> Password: </label> </li>
+<input id="password" type="password" placeholder="Enter your password"> 
+<br> 
+ <br>
+ <li> <label>Confirm password:</label> </li>
+<input id=" Confirm-password" type="password" placeholder="Re-enter your password"> 
+<br>  
+<br>
+ <li> <label> Date of Birth: </label> </li>
+<input  id="Date-of-birth" type="date"> 
+<br> 
+ <br>
+<li> <label> Age: </label> </li>
+<input id="age" type="number" placeholder="Enter your age"> 
+<br> 
+<br>
+ <li> <label>Gender:</label> </li>
+<input id="Male" type="radio" name="Gender" > Male
+<input id="Female" type="radio" name="Gender" > Female 
+<br>
+ <br>
+<li> <label> Blood Group: </label> </li>
+<select>
+    <option>Select Blood Group</option>
+    <option>A+</option>
+    <option>A-</option>
+    <option>B+</option>
+    <option>B-</option>
+    <option>AB+</option>
+    <option>AB-</option>
+    <option>O+</option>
+    <option>O-</option> 
+</select>
+<br>
+ <br>
+<li> <label> Nationality: </label> </li>
+<select>
+    <option>Select Nationality</option>
+    <option>Indian</option>
+    <option>American</option>
+    <option>Canadian</option>
+    <option>British</option>
+    <option>Other</option>
+</select>
+<br>
+ <br>
+<li> <label> Phone Number: </label> </li>
+<input type="tel" id="phone-Number"
+ maxlength="10" minlength="10"
+  placeholder="Enter 10 digit number">
+<br>
+ <br>
+ <li> <label>Alternate Phone: </label> </li>
+<input Id="Alternate-phone" type="tel"minlength="10" maxlength="10" placeholder="Enter alternate number">
+<br> <br>
+ <li> <label>Address line 1:</label> </li>
+<input type="text" placeholder="House/Flate no.,Street">
+<br>
+ <br>
+  <li> <label>Address Line 2:</label> </li>
+<input type="text" placeholder="Area,Landmark">
+<br>
+ <br>
+ <li> <label>City:</label> </li>
+<input type="text" placeholder="Enter your city">
+<br>
+ <br>
+ <li> <label>State:</label> </li>
+<select>
+    <option>Select your state</option>
+    <option>Haryana</option>
+    <option>Punjab</option>
+    <option>Rajasthan</option>
+    <option>Uttar Pradesh</option>
+    <option>Gujarat</option>
+    <option>Maharashtra</option>
+    <option> Other</option>
+
+</select>
+
+<br>
+ <br>
+ <li> <label>PIN Code:</label> </li>
+<input type="text" maxlength="6" placeholder="Enter your PIN code">
+<br>
+<br>
+ <li><label>Country:</label> </li>
+<select>
+    <option>Select country</option>
+    <option>India</option>
+    <option>USA</option>
+    <option>UK</option>
+    <option>Canada</option>
+    <option>Australia</option>
+    <option>Other</option>
+</select>
+<br>
+ <br>
+ <li> <label>Aadhar Number:</label> </li>
+<input type="text" maxlength="12" placeholder="Enter Aadhar number">
+<br> 
+<br>
+<li> <label>PAN Number:</label> </li>
+<input id="pan-number" type="text" placeholder="Enter PAN number">
+</ol>
+</fieldset>
+
+
+<fieldset>
+ <legend> <b> 2. Educational Information </b> </legend>
+<ol Start="21">
+ <li> <label> Highest Qualification  </label> </li>
+  <select>
+    <option >Select Qualification</option>
+     <optgroup label="School"> 
+    <option >10th</option>
+    <option>12th</option>
+    </optgroup>
+    <optgroup label="Gradution"> 
+    <option>BCA</option>
+    <option>B.Tech</option>
+    <option>BBA</option>
+    </optgroup>
+    <optgroup label="Post Graduation"> 
+    <option> MCA</option>
+    <option> M.Tech</option>
+    <option>M.Sc</option>
+    </optgroup>
+
+  </select>
+   <br> 
+   <br>
+   <li><label>University / Board:</label> </li>
+  <input placeholder="Enter University or Board">
+   <br>
+    <br>
+  <li><label> Year of Passing:</label> </li>
+<input style="width: 70px;">
+ <br>
+  <br>
+ <li><label> Percentage / CGPA: </label> </li>
+<input type="text" style="width:110px" placeholder="Enter Percentage">
+ <br> 
+ <br>
+ <li> <label> Stream:</label> </li>
+<select>
+    <option>Select Stream</option>
+    <option>Science</option>
+    <option>Commerce</option>
+    <option>Arts</option>
+    <option> Computer Science</option>
+    <option>Other</option>
+</select>
+ <br>
+  <br>
+ <li><label>  Subject 1:</label> </li>
+<input placeholder="Enter subject 1">
+ <br>
+  <br>
+ <li> <label> Subject 2: </label> </li>
+<input placeholder="Enter subject 2">
+ <br>
+  <br>
+ <li> <label> Subject 3:  </label> </li>
+<input placeholder="Enter subject 3">
+ <br>
+ <br>
+ <li> <label> Additional Courses: </label> </li>
+<input placeholder="HTML,CSS,JavaScript.....">
+ <br>
+  <br>
+  <li> <label> Upload Marksheet: </label> </li>
+<input type="file">
+</ol>
+</fieldset>
+
+
+<fieldset>
+ <legend> <b>3. Preferences & Choices</b> </legend>
+ <ol start="31">
+   <li> <label> Preferred Location:</label> </li>
+    <select>
+        <option>Select Location</option>
+        <option>Delhi</option>
+        <option>Gurugram</option>
+        <option>Noida</option>
+        <option>Bangalore</option>
+        <option>Hyderabad</option>
+        <option>Pune</option>
+        <option>Remote</option>
+    </select>
+     <br>
+      <br>
+     <li> <label> Job Role Preference:</label> </li>
+     <select>
+        <option>Select Job Role</option>
+        <option>Frontend Developer</option>
+        <option>Backend Developer</option>
+        <option>Full Stack Developer</option>
+        <option>Software Developer</option>
+        <option>Software Tester</option>
+        <option>Technical Trainer </option>
+    </select>
+     <br>
+      <br>
+     <li> <label>  Expected Salary:</label> </li>
+    <select>
+        <option>Select Salary Range</option>
+        <option>0-3 LPA</option>
+        <option>3-6 LPA</option>
+        <option>6-10 LPA</option>
+        <option>10-15 LPA</option>
+        <option>15-20 LPA</option>
+        <option>20+ LPA</option>
+    </select>
+     <br>
+      <br>
+    <li> <label>  Notice Period:</label> </li>
+    <select>
+        <option > Select Notice Period</option>
+        <option>Immediate</option>
+        <option>15 Days</option>
+        <option>30 Days</option>
+        <option>60 Days</option>
+        <option>90 Days</option>
+    </select>
+     <br>
+      <br>
+
+    <li> <label> Willing to Relocate ?</label> </li>
+    <input type="Radio" name="Willing to Relocate">Yes
+    <input type="radio" name="Willing to Relocate"> No
+     <br>
+      <br>
+      <li> <label> Work From Home?</label> </li>
+     <input type="Radio" name=" Work From Home ">Yes
+    <input type="radio" name=" Work From Home "> No
+     <br>
+      <br>
+      <li> <label> Preferred Shift:</label> </li>
+    <input type="radio" name="Preferred Shift">Day
+    <input type="radio" name="Preferred Shift">Night
+    <input type="radio" name="Preferred Shift">Flexible
+       
+     </ol>
+    </fieldset>
+ 
+        <fieldset>
+           <legend> <b> 4. Experience & Skills</b>  </legend>
+    <ol start="38">
+       <li> <label>Total Experience (Years):</label> </li>
+        <input style="width: 50px;">
+         <br>
+          <br>
+          <li> <label>  Current Company:</label> </li>
+        <input type=" text" placeholder="Enter current company">
+         <br>
+          <br>
+       <li> <label> Current Designation:</label> </li>
+        <input type="text" placeholder="Enter Designation">
+         <br> 
+         <br>
+          <li> <label>  Key Skills:</label> </li>
+        <input placeholder="HTML,CSS,JS,React...">
+         <br>
+          <br>
+          <li> <label >  Programming Languages:</label> </li>
+         <input type="checkbox" name="Programming Languages">C <br>
+         <input type="checkbox" name="Programming Languages">C++ <br>
+         <input type="checkbox" name="Programming Languages">Java <br>
+         <input type="checkbox" name="Programming Languages">Python <br>
+         <input type="checkbox" name="Programming Languages">JavaScript <br>
+          <br>
+
+          <li> <label> Experience Level:</label> </li>
+         <input type="radio" name="Experience Level">Fresher
+         <input type="radio" name="Experience Level">0-1 Years
+         <input type="radio" name="Experience Level">2-5 Years
+         <input type="radio" name="Experience Level">5+Years
+          <br>
+           <br>
+        
+         <li> <label> Describe Your Experience:</label> </li>
+         <textarea rows="5" cols="30" placeholder="Write about your experience..."></textarea>
+          <br>
+           <br>
+          <li> <label>  Rate Your Communication:</label> </li>
+         <input type="range">
+          <br>
+           <br>
+          <li> <label> Rate Your Technical Skills:</label> </li>
+         <input type="range">
+          <br>
+           <br>
+          <li><label> Linkedin Profile:</label> </li>
+         <input type="text" placeholder="https://linkedin.com/username">
+         <br> 
+         <br>
+          <li> <label> GitHub Profile:</label></li>
+         <input placeholder="https://github.com/username">
+          <br>
+           <br>
+          <li> <label>  Portfolio Website:</label> </li>
+         <input placeholder="https://yourportfolio.com">
+          <br>
+           <br>
+            <li> <label>  Upload Resume:</label> </li>
+         <input type="file">
+         
+        </ol>
+        </fieldset>
+
+
+
+        <fieldset>
+        <legend> <b> 5. Additional Information </b>   </legend> 
+        
+        <ol start="51">
+              <li> <label>  About Yourself   </label> </li>
+             <textarea rows="5" cols="35" placeholder="Write about your experience..."></textarea>
+              <br>
+               <br>
+          
+             <li> <label>  Hobbies:</label> </li>
+          <input placeholder="Reading,Coding,Singing...">
+           <br> 
+           <br>
+           <li> <label> Languages Known </label> </li>
+          <input type="checkbox">English
+          <input type="checkbox">Hindi
+          <input type="checkbox">Punjabi
+          <input type="checkbox">French
+          <input type="checkbox">German
+           <br> 
+           <br>
+
+           <li> <label>  Preferred Contact Method:</label> </li>
+          <input type="radio" name="contact-method">Email
+          <input type="radio" name="contact-method">Phone
+          <input type="radio" name="contact-method">Both
+           <br>
+            <br>
+
+             <li> <label>  How Did You Hear About Us?</label> </li>
+          <select >
+            <option>Select Option </option>
+            <option> Google</option>
+            <option> Instagram</option>
+            <option> Linkedin </option>
+            <option> Friend</option>
+            <option> College</option>
+            <option> Other</option>
+          </select>
+         </ol>
+         </fieldset>
+         
+         <fieldset>
+        <legend> <b> 6. Time &Other Input Types </b> </legend>
+        <ol start="56">
+             <li> <label> Preferred Joining Date:</label> </li>
+            <input type="date">
+             <br>
+              <br>
+             <li> <label>  Preferred Interview Time:</label> </li>
+            <input type="time">
+             <br>
+              <br>
+              <li> <label>  Interview Date & Time:</label> </li>
+            <input type="datetime-local"> 
+             <br>
+              <br>
+              <li> <label>  Birth Month & Year: </label> </li>
+            <input type="date"> 
+             <br>
+              <br>
+
+              <li> <label>  Available Week:</label>  </li>
+            <input type="week"> 
+             <br> 
+             <br>
+               <li> <label>  Favourite Colour: </label> </li>
+            <input type="color"> 
+             <br>
+              <br>
+
+             <li> <label> Rate Yourself:</label> </li>
+            <input type="range"> 
+             <br> 
+             <br>
+
+             <li> <label>  Search Something: </label> </li>
+            <input  type="search"  placeholder="Search here..." > 
+             <br> 
+             <br>
+            
+           <li> <label>  Upload Profile Picture: </label> </li>
+            <input type="file"> 
+            </ol>
+         </fieldset>
+
+            <fieldset>
+        
+        <legend> <b> 7. HTML Attribute Practice </b> </legend>    
+
+      <ol start="65">
+         <li> <label> Registration ID: </label> </li>
+        <input placeholder="REG-2026-001"> 
+         <br> 
+          <br>
+          <li> <label>  College Code: </label> </li>
+        <input  placeholder="COLLEGE-001"  >  
+         <br>
+          <br> 
+          <li> <label> Personal Website: </label> </li>
+        <input type="url" placeholder="https://example.com"> 
+         <br>
+          <br>
+          
+           <li>  <label>  Hidden Registration Value:</label> </li>
+           <input type="hidden" name="registration-value" value="REG-2026-01" >
+        <small>Hidden input is present in HTML but not visible.</small> 
+          
+        </ol>
+        </fieldset>
+
+        <fieldset>
+
+         <legend> <b> Declaration </b></legend>
+        <input type="checkbox"> I here by declare that all the information<br>
+         provided above is true and correct
+         </fieldset>
+         
+         <br>
+         <button type="submit">Submit form</button>
+         <button type="reset">Reset form</button>
+ </form>        
+ </body>
+ </html>
